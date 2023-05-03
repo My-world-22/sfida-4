@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+margin: 0;
+display: flex;
+font-family:'Roboto', sans-serif;
+height: 100vh;
+}
+
+#sidebar{
+display: flex;
+flex-direction: column;
+}
+#yt-logo{
+height: 50%;
+}
+.icon-sidebar{
+display: flex;
+cursor: pointer;
+align-items: center;
+padding: 2em;
+flex-direction: column;
+}
+.icon-sidebar p {
+margin: 0;
+}
+.icon-sidebar ion-icon{
+font-size: 2em;
+}
+
+#topbar{
+display: flex;
+height: 8vh;
+align-items: center;
+justify-content: space-between;
+}
+#search-wrapper{
+display: flex;
+height: 50%;
+width: 30%;
+}
+.search-wrapper{
+   
+    display: flex;
+}
+
+#icon-topbar{
+cursor: pointer;
+display: flex;
+}
+.icon-top{
+font-size: 2em;
+padding: 0 0.5em;
+}
+#search-btn{
+display: flex;
+padding: 0 0.7em;
+align-items: center;
+}
+
+#search-icon {
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+#icon-mic {
+    font-size: 1.5em;
+    display: flex;
+    
+}
+#main{
+width: 100%;
+}
+
+#content{
+height: 100%;
+display: flex;
+flex-wrap: wrap ;
+justify-content: space-around;
+margin-top: 5vh;
+}
+
+.content-image p {
+    font-size: small;
+    margin: 0;
+   }
+
+.image-epicode{
+width: 350px;
+}
+
+#gestione{
+    display: flex;
+}
+
+.size-logo{
+    width: 35px;
+}
+
+.logo-epicode{
+display: flex;
+flex-direction: column;
+margin-right: 10px;
+}
+
+.testo{
+text-align: center;
+}
